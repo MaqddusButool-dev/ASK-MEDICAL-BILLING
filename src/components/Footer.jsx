@@ -58,7 +58,7 @@ export default function Footer() {
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="w-4 h-4 mt-1" />
-              100 N Brand Blvd suite 522, Glendale, CA 91203, USA
+              Lahore Pakistan
             </li>
             
             <li className="mt-4">

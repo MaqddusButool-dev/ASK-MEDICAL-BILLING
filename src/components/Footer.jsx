@@ -50,23 +50,20 @@ export default function Footer() {
           <ul className="space-y-4 text-sm">
             <li className="flex items-start gap-3">
               <Phone className="w-4 h-4 mt-1" />
-              +1 (888) 655-3729
+              (845) 205-7786 
             </li>
             <li className="flex items-start gap-3">
               <Mail className="w-4 h-4 mt-1" />
-              info@rcmmatter.com
+               info@askmedicalbilling.com 
             </li>
             <li className="flex items-start gap-3">
               <MapPin className="w-4 h-4 mt-1" />
               100 N Brand Blvd suite 522, Glendale, CA 91203, USA
             </li>
-            <li className="flex items-start gap-3">
-              <MapPin className="w-4 h-4 mt-1" />
-              433 Walnut Ct, Pittsburgh, PA 15237, USA
-            </li>
+            
             <li className="mt-4">
               <img
-                src={Image} // replace with your actual image path
+                src={Image} 
                 alt="Clutch Badge"
                 className="w-28 h-auto"
               />

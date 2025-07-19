@@ -45,7 +45,7 @@ export default function FAQPage() {
   );
 
   return (
-    <section className="min-h-screen py-16 px-4 bg-gradient-to-r from-[#1f3b57] to-[#03a9f4]">
+    <section className="min-h-screen py-16 px-4 bg-gradient-to-br from-[#f3f4f6] to-[#e0f7fa]">
       <div className="max-w-8xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
         {/* Header */}
         <div className="bg-[#1f3b57] text-white py-12 px-6 md:px-12">

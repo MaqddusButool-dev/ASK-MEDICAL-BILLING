@@ -4,7 +4,7 @@ export default function PolicyPage() {
   const [activeTab, setActiveTab] = useState("privacy");
 
   return (
-    <section className="min-h-screen bg-gradient-to-br from-[#1f3b57] to-[#03a9f4] text-white py-16 px-4">
+    <section className="min-h-screen bg-gradient-to-br from-[#f3f4f6] to-[#e0f7fa] text-white py-16 px-4">
       <div className="max-w-8xl mx-auto bg-white text-[#2c3e50] rounded-2xl shadow-2xl overflow-hidden">
         {/* Header Section */}
         <div className="bg-[#1f3b57] text-white py-10 px-6 md:px-12">

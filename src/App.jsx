@@ -6,8 +6,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 // import Contact from "./pages/Contact";
-// import PrivacyPolicy from "./pages/PrivacyPolicy";
-// import FAQPage from "./pages/FAQPage";
+import PrivacyPolicy from "./pages/PolicyPage";
+import FAQPage from "./pages/FAQPage";
 import BookAppointment from "./pages/BookAppointment";
 
 export default function App() {
@@ -22,8 +22,8 @@ export default function App() {
             <Route path="/services" element={<Services />} />
             {/* <Route path="/contact" element={<Contact />} /> */}
             <Route path="/BookAppointment" element={<BookAppointment />} />
-            {/* <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
-            <Route path="/FAQ" element={<FAQPage />} /> */}
+            <Route path="/PolicyPage" element={<PrivacyPolicy />} />
+            <Route path="/FAQ" element={<FAQPage />} />
           </Routes>
         </main>
         <Footer />

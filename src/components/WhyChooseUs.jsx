@@ -31,12 +31,12 @@ export default function WhyChooseUs() {
   ];
 
   return (
-    <section className="relative bg-gradient-to-b from-white to-[#f8f9fc] py-16 px-4 overflow-x-hidden overflow-y-hidden">
+    <section className="relative bg-gradient-to-br from-[#f3f4f6] to-[#e0f7fa] py-16 px-4 overflow-x-hidden overflow-y-hidden">
       {/* Decorative background accents */}
       <div className="absolute -top-12 -left-12 w-40 h-40 bg-[#007bff]/10 rounded-full blur-3xl"></div>
       <div className="absolute -bottom-12 -right-12 w-40 h-40 bg-[#e91e63]/10 rounded-full blur-3xl"></div>
 
-      <div className="max-w-7xl mx-auto relative z-10">
+      <div className="max-w-6xl mx-auto relative z-10">
         {/* Section Header */}
         <motion.div
           initial={{ opacity: 0, y: -30 }}

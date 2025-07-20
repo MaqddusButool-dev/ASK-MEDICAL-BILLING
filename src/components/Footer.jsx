@@ -10,8 +10,7 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-white mb-4">Services</h3>
           <ul className="space-y-2 text-sm">
-            <li>End-to-End Medical Billing</li>
-            <li>Revenue Cycle Management (RCM)</li>
+            <li>End-to-End RCM (Revenue Cycle Management)</li>
             <li>Insurance Verification & Authorization</li>
             <li>Payment Posting & Reconciliation</li>
             <li>Denial Management</li>

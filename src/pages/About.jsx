@@ -57,7 +57,7 @@ export default function AboutUs() {
           className="text-center mb-20"
         >
           <h1 className="text-4xl md:text-5xl font-bold text-[#1f3b57] mb-4">
-            About <span className="text-pink-500 font-extrabold">ASK Medical Billing</span>
+            About <span className="bg-gradient-to-r from-[#0ea5e9] to-[#14b8a6] bg-clip-text text-transparent font-extrabold">ASK Medical Billing</span>
           </h1>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-600 leading-relaxed">
             We are a trusted medical billing and revenue cycle management partner
@@ -162,7 +162,7 @@ export default function AboutUs() {
             your revenue cycle.
           </p>
           <a
-            href="/contact"
+            href="/BookAppointment"
             className="inline-block bg-gradient-to-r from-[#03a9f4] to-[#0288d1] hover:brightness-110 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-transform duration-300 hover:scale-105"
           >
             Contact Us Today

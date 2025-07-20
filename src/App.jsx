@@ -10,7 +10,8 @@ import PrivacyPolicy from "./pages/PolicyPage";
 import FAQPage from "./pages/FAQPage";
 import BookAppointment from "./pages/BookAppointment";
 
-import ElevenLabsBot from "./components/ElevenLabsBot"; // ✅ Chatbot
+import ElevenLabsBot from "./components/ElevenLabsBot"; 
+import ServiceDetailPage from "./pages/ServiceDetailPage";
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
+             <Route path="services/:slug" element={<ServiceDetailPage />} />
             {/* <Route path="/contact" element={<Contact />} /> */}
             <Route path="/BookAppointment" element={<BookAppointment />} />
             <Route path="/PolicyPage" element={<PrivacyPolicy />} />

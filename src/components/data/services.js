@@ -2,7 +2,7 @@ import { FileText, BarChart3, Calculator, Shield, UserCheck, Briefcase as Briefc
 import image1 from "../../assets/RMC.jpg"
 import image2 from "../../assets/medicalBelling.jpg"
 import image3 from "../../assets/medicalCoding.jpg"
-import image4 from "../../assets/credentialing.jpg";
+import image4 from "../../assets/Credentialing.jpg";
 import image5 from "../../assets/Security.jpg";
 import image6 from "../../assets/PracticeManagement.jpg";
 export const servicesData = [
